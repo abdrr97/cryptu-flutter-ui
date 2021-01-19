@@ -1,0 +1,24 @@
+name: crypto_currency_app
+description: A new Flutter project.
+version: 1.0.0+1
+module:
+  androidX: true
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  crypto_font_icons: ^0.1.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
